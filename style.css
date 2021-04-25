@@ -1,0 +1,13 @@
+.input_tab {
+    width: 200 px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.plus_btn {
+    border-radius: 20px;
+}
+
+.deleteButton {
+    float: right;
+}
