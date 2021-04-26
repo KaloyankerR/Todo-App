@@ -23,20 +23,17 @@
 
 </head>
 
-<body>
-    <div>
+<body onload="refreshTime()">
+    <p id="time"></p>
+    
+    <div class="container">
         <header>ToDo App</header>
-        <input type="text" placeholder="ToDo task" id="taskTextID">
-        <button type="button" onclick="addTask()">Add task</button>
-
-        <div id="taskContainerID"></div>
-
-        <!-- <div class='shadow-md p-2 border --task' id=" 
-        + counter + " ><a class='text-primary mx-1'></a>" 
-        + taskText.value + " <button>delete</button></div> -->
-
+        <input type="text" id="taskTextID" placeholder="ToDo task">
+        <button type="button" id='buttonAddID' onclick="addTask()">Add task</button>
     </div>
-    </div>
+
+    <div class="tasksContainer" id="taskContainerID"></div>
+
 </body>
 
 </html>

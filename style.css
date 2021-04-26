@@ -1,13 +1,26 @@
-.input_tab {
-    width: 200 px;
-    height: 20px;
-    border-radius: 10px;
-}
-
-.plus_btn {
-    border-radius: 20px;
-}
-
 .deleteButton {
     float: right;
+}
+
+.container {
+    /* border: 2px solid black;
+    border-radius: 50px; */
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px    ;
+    text-align: center;
+    justify-content: center;
+}
+
+.tasksContainer {
+    border: solid 2px black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.tasksContainer div {
+    overflow: auto;
+    /* text-overflow: initial; */
 }
