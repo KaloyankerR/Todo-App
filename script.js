@@ -11,7 +11,7 @@ function addTask() {
         counter++;
         taskText.value = null;
     } else {
-        alert("Please enter a task")
+        alert("There's no task. Please enter one.")
     }
 }
 

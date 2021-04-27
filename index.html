@@ -18,18 +18,17 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <script src="/ToDo App/script.js"></script>
+    <script src="script.js"></script>
     <title>ToDo App</title>
-
 </head>
 
 <body onload="refreshTime()">
-    <p id="time"></p>
-    
+    <p class="time col-md-2 ml-auto" id="time"></p>
+
     <div class="container">
-        <header>ToDo App</header>
-        <input type="text" id="taskTextID" placeholder="ToDo task">
-        <button type="button" id='buttonAddID' onclick="addTask()">Add task</button>
+        <header>Todo App</header><br>
+        <input type="text" class="inputTask" id="taskTextID" placeholder="Todo task"><br>
+        <button class="btn-outline-dark btn-lg addButton" type="button" id='buttonAddID' onclick="addTask()">Add task</button>
     </div>
 
     <div class="tasksContainer" id="taskContainerID"></div>
